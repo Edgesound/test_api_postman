@@ -1,0 +1,20 @@
+positive tests
+1.Name - 3 символа: age - 18: salary - 1
+2.Name - 20 символа: age - 60: salary - 500000
+3.Name - 40 символа: age - 120: salary - 100000
+
+negative test
+4.Name - 2 символа: age - 18: salary - 1
+5.Name - 41 символа: age - 18: salary - 1
+6.Name - 0 символов: age - 18: salary - 1
+7.Name -  цифра: age - 18: salary - 1
+8.Name -  5 символов с префиксом: age - 18: salary - 1
+9.Name -  5 символов с пробелом между: age - 18: salary - 1
+10.Name - 3 символа: age - 17: salary - 1
+11.Name - 3 символа: age - 121: salary - 1
+12.Name - 3 символа: age - пусто: salary - 1
+13.Name - 3 символа: age - символы: salary - 1
+14.Name - 3 символа: age - 18: salary - 0
+15.Name - 3 символа: age - 18: salary - 1000001
+16.Name - 3 символа: age - 18: salary - пусто
+17.Name - 3 символа: age - 18: salary - символы
