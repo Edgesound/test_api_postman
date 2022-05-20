@@ -7,8 +7,6 @@ negative test
 4.Name - 2 символа: age - 18: salary - 1
 5.Name - 41 символа: age - 18: salary - 1
 6.Name - 0 символов: age - 18: salary - 1
-7.Name -  цифра: age - 18: salary - 1
-8.Name -  5 символов с префиксом: age - 18: salary - 1
 9.Name -  5 символов с пробелом между: age - 18: salary - 1
 10.Name - 3 символа: age - 17: salary - 1
 11.Name - 3 символа: age - 121: salary - 1

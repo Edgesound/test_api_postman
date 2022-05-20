@@ -1,18 +1,52 @@
 {
 	"info": {
-		"_postman_id": "e6731a77-101b-4fa8-8874-7be5ad8ee8aa",
-		"name": "New Collection",
+		"_postman_id": "8d13a6b2-55dc-47fb-bfb0-975f437dd621",
+		"name": "test_api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "test_api",
+			"name": "test_api Copy 2",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"exec": [
-							""
+							"var r_Data = pm.request.body.formdata.toObject();",
+							"let age = +r_Data.age;",
+							"let salary = +r_Data.salary;",
+							"let name = r_Data.name;",
+							"let result_1 =true;",
+							"let result_2;",
+							"       ",
+							"pm.test(\"test\",function(){",
+							"let age_1 = true;",
+							"let age_2;",
+							"                if (age>=18 && age<=120) {",
+							"                      age = true;",
+							"                         age_2 = true;",
+							"let salary_1 = true;",
+							"let salary_2;            ",
+							"                if (salary>=1 && salary<=1000000) {",
+							"                     salary = true;",
+							"                         salary_2 = true;",
+							"let name_1 = true;",
+							"let name_2;   ",
+							"                  ",
+							"                 if(name.length>=3 && name.length<=40) {",
+							"                        name = true;",
+							"                            return name_2 = true;{",
+							"                            ",
+							"                            if(age_1 = age_2) {",
+							"                            if (salary_1 = salary_2) {",
+							"                            if(name_1 = Name_2){   ",
+							"                                result_2 = true;",
+							"                              }  ",
+							"                          }",
+							"                }}}}};",
+							"                    ",
+							"  pm.expect(result_1).to.eql(result_2);",
+							"    });"
 						],
 						"type": "text/javascript"
 					}
